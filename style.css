@@ -1,0 +1,103 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin:0;
+  padding:0;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.container-fluid{
+  width:100%;
+  padding: 0 !important; /*左右全体の余白を消去*/
+}
+
+.navbar {
+  font-size:20px;
+  line-height:50px;
+  padding-left:30px;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*--------------------全体---------------------*/
+
+.nav-item {/*HOME 第１章の間隔*/
+  margin-left: 5px;
+}
+
+.image {
+  background-image: url('math.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:90vh;
+  width:100%;
+  position: relative;
+}
+
+.math h1 {
+  color: #49d49d;
+  font-size:70px;
+  line-height: 590px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .6);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+}
+
+.youtube {
+  margin-top:100px;
+  position: relative;
+}
+
+.youtube img {
+  width:250px;
+  height:250px;
+  border-radius: 50%;
+  position: absolute;
+  top:-50px;
+  right:200px;
+}
+
+.youtube h1 {
+  padding-left:100px;
+}
+
+.youtube_all {
+  margin-top:100px;
+}
+
+.youtube_content{
+  text-align: center;
+  margin-top:50px;
+}
+
+.youtube_01 h2 {
+  margin-left:300px;
+  border-left: 5px solid #49d49d;
+  padding-left: 15px;
+}
+
+.youtube_02 {
+  margin-top:100px;
+}
+
+.youtube_02 h2 {
+  margin-left:300px;
+  border-left: 5px solid #49d49d;
+  padding-left: 15px;
+}
+
+
+footer {
+  margin-top:100px;
+  background-color:#49d49d;
+  height:70px;
+}
