@@ -1,0 +1,142 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) { /*--col-xs--*/
+/*画面サイズが575px以下だったらここを読み込む*/
+ .image {
+   height:500px;
+ }
+
+ .math h1 {
+   font-size:35px;
+   line-height: 500px;
+ }
+
+ /*----------------contents--------------*/
+
+ .youtube {
+   margin-top:70px;
+   position: relative;
+ }
+
+ .first_text {
+   text-align: center;
+ }
+
+ .kumano {
+   width:100%;
+   margin-left:40px;
+   margin-top:50px;
+ }
+
+ .kumano img {
+   width:80%;
+   height:auto;
+   border-radius:0%;
+   position: static;
+   display: block;
+ }
+
+ .youtube h1 {
+   padding-left:0px;
+   font-size:35px;
+   display: block;
+ }
+
+ .youtube_all {
+   margin-top:50px;
+ }
+
+ .youtube_content{
+   margin-top:25px;
+ }
+
+ .youtube_content iframe {
+   width:300px;
+   height:175px;
+   margin-top:10px;
+ }
+
+ .youtube_01 h2 {
+   margin-left:20px;
+   border-left: 3px solid #49d49d;
+   font-size: 25px;
+ }
+
+ .youtube_02 {
+   margin-top:70px;
+ }
+
+ .youtube_02 h2 {
+   margin-left:20px;
+   border-left: 3px solid #49d49d;
+   font-size: 25px;
+ }
+
+ }
+
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767px) { /*--col-sm--*/
+  /*画面サイズが767px以下だったらここを読み込む*/
+ }
+
+
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991px) { /*--col-md--*/
+  /*画面サイズが991px以下だったらここを読み込む*/
+ }
+
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199px) {
+  /*画面サイズが1199px以下だったらここを読み込む*/
+
+  .image {
+    height:700px;
+  }
+
+  .math h1 {
+    line-height: 700px;
+  }
+
+  /*----------------contents--------------*/
+
+  .youtube {
+    margin-top:70px;
+    position: relative;
+  }
+
+  .youtube h1 {
+    display: block;
+  }
+
+  .youtube_all {
+    margin-top:50px;
+  }
+
+  .youtube_content{
+    margin-top:25px;
+  }
+
+  .youtube_01 h2 {
+    margin-left:200px;
+    border-left: 3px solid #49d49d;
+  }
+
+
+  .youtube_02 h2 {
+    margin-left:200px;
+    border-left: 3px solid #49d49d;
+ }
+
+ .youtube_content iframe {
+   margin-top:20px;
+ }
+
+ .kumano img {
+   width:200px;
+   height:200px;
+   display: block;
+   top:-30px;
+   right:100px;
+ }
