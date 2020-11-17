@@ -47,6 +47,27 @@
 /* Medium devices (tablets, less than 992px)*/
 @media (max-width: 991px) { /*--col-md--*/
   /*画面サイズが991px以下だったらここを読み込む*/
+
+  .kumano {
+    width:100%;
+    margin-left:150px;
+    margin-top:50px;
+  }
+
+  .kumano img {
+    width:60%;
+    height:auto;
+    border-radius:0%;
+    position: static;
+    display: block;
+  }
+
+  .youtube_01 h2 {
+    margin-left:150px;
+    border-left: 3px solid #49d49d;
+  }
+
+
  }
 
  /* Small devices (landscape phones, less than 768px)*/
